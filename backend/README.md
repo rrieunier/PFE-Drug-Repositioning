@@ -5,3 +5,11 @@ To instantiate the project you have to clone it and download the [Drugbank full 
 You should also setup Neo4J and copy the `.env.example` file as `.env` with your credentials.
 
 You can run the #1, #2, #6 cells in `drugbankparser.ipynb` to extract some data from the Drugban database and export them in CSV. Then you can run `neo4jsample.py` to persist those data in your triplestore.
+
+If you want to run the backend along the frontend, then you have to run those commands:
+```bash
+cd backend
+chmod +x server.sh
+./server.sh
+```
+It will run the server in DEBUG mode so that any change in the code restarts the server. To disable the DEBUG mode, replace the first line of `server.sh` with `export FLASK_DEBUG=0`. **Please be patient, it is long to load the database in memory, it takes approximately less than one minute to complete and run the server**.
