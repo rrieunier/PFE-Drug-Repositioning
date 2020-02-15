@@ -4,7 +4,7 @@ End of studies project conducted by Dr. Gayo DIALLO ([LaBRI](https://www.labri.f
 ![logo ensc](https://ensc.bordeaux-inp.fr/sites/default/files/logo-ensc.png)
 ![logo enseirb](https://enseirb-matmeca.bordeaux-inp.fr/sites/default/files/logo-em.png) 
 
-This repository provides a visualization tool to help biochemists to find new purposes for drugs based on their links in knowledge graphs.
+This repository provides a **Drugbank full database parser** and a **visualization tool** to help biochemists to find new purposes for drugs based on their links in knowledge graphs.
 
 **First of all, you should have a look to the respective READMEs of the backend and the frontend directories.**
 
@@ -20,3 +20,5 @@ In the second one:
 cd frontend
 npm start
 ```
+
+**The `Drugbank database parser` and the playground for data persistence in Neo4J using the Python wrapper can be found in `backend`.**

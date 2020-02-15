@@ -1,11 +1,19 @@
 # Backend
 
-To instantiate the project you have to clone it and download the [Drugbank full database](https://drive.google.com/open?id=19pHYY-BsFJkoMKp2MPKl3QKzv5bHx_t3) at the root of the project.
+## Make it up and running
+### Dependencies
+```bash
+conda install flask
+pip install neo4j python-dotenv
+```
+### Data
+To instantiate the project you have to download the [Drugbank full database](https://drive.google.com/open?id=19pHYY-BsFJkoMKp2MPKl3QKzv5bHx_t3) at the root of the project.
 
-You should also setup Neo4J and copy the `.env.example` file as `.env` with your credentials.
+You shall also setup Neo4J and duplicate the `.env.example` file as `.env` with your Neo4J credentials.
 
-You can run the #1, #2, #6 cells in `drugbankparser.ipynb` to extract some data from the Drugban database and export them in CSV. Then you can run `neo4jsample.py` to persist those data in your triplestore.
+You can run the #1, #2, #6 cells in `drugbankparser.ipynb` to extract some data from the Drugbank database and export them in CSV. Then you can run `neo4jsample.py` to persist those data in your triplestore.
 
+### Backend
 If you want to run the backend along the frontend, then you have to run those commands:
 ```bash
 cd backend
