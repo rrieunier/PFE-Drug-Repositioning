@@ -28,7 +28,7 @@ class App extends React.Component<{}, AppState> {
   render() {
     const { drugs, search, nodes, links } = this.state;
 
-    const url = `http://localhost:5000/graph${search && "/" + search}`;
+    const url = `http://localhost:5000/graph${search && "/" + encodeURI(search)}`;
     console.log(url);
     return (
       <div>

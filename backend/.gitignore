@@ -180,3 +180,6 @@ fabric.properties
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
+
+drugbank_all_full_database.xml.zip
+full database.xml

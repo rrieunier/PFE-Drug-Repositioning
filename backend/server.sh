@@ -1,2 +1,2 @@
-#export FLASK_DEBUG=1
-python -m flask run
+export FLASK_DEBUG=1
+python3 -m flask run
