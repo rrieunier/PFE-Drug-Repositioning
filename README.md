@@ -1,4 +1,4 @@
-# Enabling Computational Drug Repositioning using Knowledge Graphs
+# Enabling Computational Drug Repositioning using Knowledge Graphs by C. Martinez & R. Rieunier
 End of studies project conducted by Dr. Gayo DIALLO ([LaBRI](https://www.labri.fr/)) during the [ENSC](https://ensc.bordeaux-inp.fr/) / [ENSEIRB-MATMECA](https://enseirb-matmeca.bordeaux-inp.fr/) Artificial Intelligence course.
 
 ![logo ensc](https://ensc.bordeaux-inp.fr/sites/default/files/logo-ensc.png)
