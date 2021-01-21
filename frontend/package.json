@@ -20,7 +20,7 @@
     "fs-extra": "^8.1.0",
     "gojs": "^2.1.0",
     "gojs-react": "^1.0.3",
-    "immer": "^4.0.2",
+    "immer": "^8.0.1",
     "react": "^16.11.0",
     "react-autocomplete": "^1.8.1",
     "react-dom": "^16.11.0",
